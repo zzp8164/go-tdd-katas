@@ -8,7 +8,7 @@ import (
 
 func TestShouldSolveFor0(t *testing.T) {
 	actual, _ := Sqrt(0)
-	assert.Equal(t, 0, actual)
+	assert.Equal(t, float64(0), actual)
 }
 
 func TestShouldRaiseErrorWhenInputIsNegative(t *testing.T) {

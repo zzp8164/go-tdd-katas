@@ -1,9 +1,9 @@
 package main
 
 import (
-	"code.google.com/p/go-tour/pic"
 	"image"
 	"image/color"
+	"golang.org/x/tour/pic"
 )
 
 type GoImage struct {
